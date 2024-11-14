@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+:root {
+    /* colors */
+    --clr-white: hsl(220, 37%, 100%);
+
+    /* primary colors */
+    --clr-very-dark-blue: hsl(243, 87%, 12%);
+    --clr-desatured-blue: hsl(238, 22%, 44%);
+
+    /* color accents */
+    --clr-bright-blue: hsl(224, 93%, 58%);
+    --clr-moderate-cyan: hsl(170, 45%, 43%);
+
+    /* color neutral */
+    --clr-light-grayish-blue: hsl(240, 75%, 98%);
+    --clr-light-gray: hsl(0, 0%, 75%);
+
+    /* font weights */
+    --fw-regular: 400;
+    --fw-bold: 600;
+    --fw-black: 700;
+
+    /* font size */
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.375rem;
+    --fs-600: 1.75rem;
+    --fs-700: 2.25rem;
+
+    /* - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+    - Weights: 400, 700 */
+
+    /* - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+    - Weights: 400 */
+}
+
+header {
+    position: absolute;
+    margin: 2em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 2em;
+}
+
+/* .home-hero {
+    background-image: url(/images/illustration-1.svg);
+    padding: 10em;
+} */
+
+.title {
+    font-size: var(--fs-700);
+    display: block;
+}
+
+.title-pagraph {
+    display: block;
+    font-size: var(--fs-300);
+}
+
+.button-accent {
+    font-size: var(--fs-300);
+    color: var(--clr-white);
+    background-color: var(--clr-bright-blue);
+    padding: .325rem;
+    margin: 1rem;
+    /* border-radius: 10%; */
+}
